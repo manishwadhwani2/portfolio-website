@@ -36,9 +36,3 @@ export interface Education {
 export interface Achievement {
   title: string;
 }
-
-export interface ChatMessage {
-  role: 'user' | 'model';
-  text: string;
-  isError?: boolean;
-}

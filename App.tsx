@@ -6,7 +6,7 @@ import { Projects } from './components/Projects';
 import { Skills } from './components/Skills';
 import { Education } from './components/Education';
 import { Contact } from './components/Contact';
-import { ChatWidget } from './components/ChatWidget';
+
 
 function App() {
   return (
@@ -20,7 +20,6 @@ function App() {
         <Education />
       </main>
       <Contact />
-      <ChatWidget />
     </div>
   );
 }
