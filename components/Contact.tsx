@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
         </p>
         
         <a 
-          href={`mailto:${PERSONAL_INFO.email}`} 
+          href={`mailto:${manishwadhwani1998@gmail.com}`} 
           className="inline-block px-8 py-4 border border-primary-500 text-primary-500 font-medium rounded hover:bg-primary-500/10 transition-colors"
         >
           Say Hello
@@ -20,7 +20,6 @@ export const Contact: React.FC = () => {
 
         <div className="mt-24 text-slate-500 text-sm">
            <p className="mb-2">Designed & Built by Manish Wadhwani</p>
-           <p className="text-xs opacity-60">Powered by AI</p>
         </div>
       </div>
     </footer>

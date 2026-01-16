@@ -6,8 +6,8 @@ export const Hero: React.FC = () => {
   return (
     <Section id="about" className="min-h-screen flex flex-col justify-center pt-24">
       <div className="max-w-4xl space-y-6">
-        <p className="text-primary-500 font-medium tracking-wide">Hi, my name is</p>
-        <h1 className="text-5xl md:text-7xl font-extrabold text-slate-100 tracking-tight leading-tight">
+        <p className="text-primary-500 font-serif tracking-wide">Hi, my name is</p>
+        <h1 className="text-5xl md:text-7xl font-serif text-slate-100 tracking-tight leading-tight">
           {PERSONAL_INFO.name}.
         </h1>
         <h2 className="text-4xl md:text-6xl font-bold text-slate-400 leading-tight">
