@@ -15,6 +15,5 @@ View your app in AI Studio: https://ai.studio/apps/drive/1FFwILPTAr7WGRRxf1yhPTb
 
 1. Install dependencies:
    `npm install`
-2. Set the `API_KEY` in .env.local to your AI service API key
-3. Run the app:
+2. Run the app:
    `npm run dev`
