@@ -4,7 +4,7 @@ import { Section } from './Section';
 
 export const Projects: React.FC = () => {
   return (
-    <Section id="projects" title="Something I've Built">
+    <Section id="projects" title="Past Projects">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {PROJECTS.map((project, index) => (
           <div key={index} className="bg-slate-900/50 p-8 rounded-lg hover:-translate-y-2 transition-transform duration-300 border border-slate-800 hover:border-slate-700">

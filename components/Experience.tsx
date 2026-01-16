@@ -4,7 +4,7 @@ import { Section } from './Section';
 
 export const Experience: React.FC = () => {
   return (
-    <Section id="experience" title="Where I've Worked">
+    <Section id="experience" title="Past Experience">
       <div className="space-y-12 border-l border-slate-800 ml-3 md:ml-6 pl-8 md:pl-12 relative">
         {EXPERIENCES.map((exp, index) => (
           <div key={index} className="relative group">
