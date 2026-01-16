@@ -20,7 +20,7 @@ export const Contact: React.FC = () => {
 
         <div className="mt-24 text-slate-500 text-sm">
            <p className="mb-2">Designed & Built by Manish Wadhwani</p>
-           <p className="text-xs opacity-60">Powered by Gemini AI</p>
+           <p className="text-xs opacity-60">Powered by AI</p>
         </div>
       </div>
     </footer>

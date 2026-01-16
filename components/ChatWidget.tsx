@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { streamChatResponse } from '../services/geminiService';
 import { ChatMessage } from '../types';
+import { streamChatResponse } from '../services/aiService';
 
 export const ChatWidget: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
