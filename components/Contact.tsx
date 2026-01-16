@@ -12,7 +12,7 @@ export const Contact: React.FC = () => {
         </p>
         
         <a 
-          href={`mailto:${manishwadhwani1998@gmail.com}`} 
+          href={`mailto:${PERSONAL_INFO.email}`} 
           className="inline-block px-8 py-4 border border-primary-500 text-primary-500 font-medium rounded hover:bg-primary-500/10 transition-colors"
         >
           Say Hello
